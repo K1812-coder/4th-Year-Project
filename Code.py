@@ -2,10 +2,8 @@ Python code
 import tweepy
 import pandas as pd
 import numpy as np
+import re
 from textblob import TextBlob
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
 from statsmodels.tsa.arima.model import ARIMA
 import matplotlib.pyplot as plt
 
